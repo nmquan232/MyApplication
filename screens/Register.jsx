@@ -49,7 +49,7 @@ const Register = ({navigation}) => {
         setLoader(true)
         
         try {
-            const response = await axios.post('https://food-app-328l.onrender.com/auth/register', value)
+            const response = await axios.post('https://food-app-pyz6.onrender.com/auth/register', value)
             if (response.status === 201) {
                 setLoader(false)
                 Alert.alert(

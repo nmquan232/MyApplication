@@ -18,7 +18,7 @@ const Cart = ({ navigation }) => {
         if (userId !== null) {
 
             try {
-                const res = await axios.get(`https://food-app-328l.onrender.com/cart/find/${userId}`)
+                const res = await axios.get(`https://food-app-pyz6.onrender.com/cart/find/${userId}`)
                 if (res.status === 200) {
                     setCartData(res.data.products)
                     dispatch({

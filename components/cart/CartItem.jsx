@@ -19,7 +19,7 @@ const CartItem = ({ item }) => {
     }
     const deleteItem = async () => {
         try {
-            const res = await axios.delete(`https://food-app-328l.onrender.com/cart/${item._id}`)
+            const res = await axios.delete(`https://food-app-pyz6.onrender.com/cart/${item._id}`)
             if (res.status === 200) {
                 navigation.replace('Cart')
             }

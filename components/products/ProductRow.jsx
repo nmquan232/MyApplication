@@ -5,7 +5,7 @@ import ProductCartView from './ProductCartView';
 import { Context } from '../../store/index';
 import useFetch from '../../hook/useFetch'
 const ProductRow = () => {
-   const {data, isLoading, error, reFetch} = useFetch('https://food-app-328l.onrender.com/products')
+   const {data, isLoading, error, reFetch} = useFetch('https://food-app-pyz6.onrender.com/products')
    const [state, dispatch] = React.useContext(Context)
    React.useEffect(()=> {
       dispatch({

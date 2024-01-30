@@ -18,7 +18,7 @@ const ProductCartView = (props) => {
                cartItem: props.product._id,
                qty: 1
             }
-            const res = await axios.post('https://food-app-328l.onrender.com/cart', newCart)
+            const res = await axios.post('https://food-app-pyz6.onrender.com/cart', newCart)
             if (res.status === 200) {
                Alert.alert(
                   "Success",

@@ -16,7 +16,7 @@ const Orders = ({navigation}) => {
         if (userId !== null) {
 
             try {
-                const res = await axios.get(`https://food-app-328l.onrender.com/order/${userId}`)
+                const res = await axios.get(`https://food-app-pyz6.onrender.com/order/${userId}`)
                 if (res.status === 200) {
                     setOrderData(res.data)
                 }

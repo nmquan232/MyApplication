@@ -9,7 +9,7 @@ const Search = () => {
 
     const handleSearch = async (searchKey)=> {
         try {
-            const res = await axios.get(`https://food-app-328l.onrender.com/products/search/${searchKey}`)
+            const res = await axios.get(`https://food-app-pyz6.onrender.com/products/search/${searchKey}`)
             setSearchResults(res.data)
          } catch (error) {
             console.log('st wrong in handleSearch', error);

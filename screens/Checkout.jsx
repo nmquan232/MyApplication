@@ -48,7 +48,7 @@ const Checkout = ({ navigation, route }) => {
             payment: "Thanh toán khi nhận hàng"
         }
         try {
-            const res = await axios.post(`https://food-app-328l.onrender.com/order/${userId}`, newOrder)
+            const res = await axios.post(`https://food-app-pyz6.onrender.com/order/${userId}`, newOrder)
             if(res.status === 200){
                 console.log('success');
                 navigation.replace('Orders')

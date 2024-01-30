@@ -40,7 +40,7 @@ const LoginPage = ({ navigation }) => {
     const handleLogin = async (value) => {
         setLoader(true)
         try {
-            const response = await axios.post('https://food-app-328l.onrender.com/auth/login', value)
+            const response = await axios.post('https://food-app-pyz6.onrender.com/auth/login', value)
             if (response.status === 200) {
                 setResData(response.data)
                 setLoader(false)
